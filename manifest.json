@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "chaz.workspace3d",
+  "name": "Workspace 3D",
+  "version": "1.0.0",
+  "author": "ChazPounder78",
+  "license": "MIT",
+  "description": "3D workspace switching: page-flip, flythrough and coverflow transitions over a rolling screenshot cache. Switches stay instant - the animation is a transparent overlay, never a compositor delay.",
+  "kinds": ["service"],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
